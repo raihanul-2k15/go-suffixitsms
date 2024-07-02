@@ -1,4 +1,4 @@
-# go-mimsms
+# go-suffixitsms
 
 A simple, easy to use Go package to interact with [Suffix IT Bulk SMS](https://bulkmsg.suffixit.com) API, a Bangladeshi SMS Gateway
 
@@ -38,7 +38,7 @@ fmt.Println(resp) // Success
 ### Set timeout for request
 
 ```go
-client := mimsms.NewClient(...)
+client := suffixitsms.NewClient(...)
 client.SetTimeout(30 * time.Second)
 ```
 
